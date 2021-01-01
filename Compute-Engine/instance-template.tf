@@ -5,4 +5,5 @@ module "vm_instance_template" {
   description   = "This template is used to create app server instances."
   machine_type  = "f1-micro"
   source_image  = "debian-cloud/debian-9"
+  region        = var.region
 }
